@@ -38,12 +38,9 @@ def main():
         if num == return_num:
             return_day = day
 
-    print("You are leaving on day number: {}".format(weekday_dict[vacation_start_day])
-        + "({}".format(vacation_start_day.capitalize()) + ")")
-    print("You will be returning from your {}".format(length_of_holiday)
-        + " day tip on a {}".format(return_day.capitalize()) + ".")
+    print("You are leaving on day number: {} ({})".format(weekday_dict[vacation_start_day], vacation_start_day.capitalize()))
+    print("You will be returning from your {} day trip on a {}.".format(length_of_holiday, return_day.capitalize()))
 
 
-
-
-main()
+if __name__ == "__main__":
+    main()

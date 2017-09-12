@@ -30,6 +30,16 @@ finish_line.goto(150, -40)
 
 random_click = random.randrange(1, 5)
 
+
+def display_winner(racer, xcor, ycor):
+    message = turtle.Turtle()
+    message.up()
+    message.hideturtle()
+    xcor = xcor + 25
+    message.goto(xcor, ycor)
+    message_text = racer + " Wins!"
+    message.write(message_text)
+
 while True:
 
     andy_position = andy.xcor()
@@ -37,12 +47,12 @@ while True:
 
     andy.forward(random.randrange(1, 5))
     if andy_position >= 150:
-        print("Andy Wins!")
+        display_winner("Andy", andy.xcor(), andy.ycor())
         break
 
     lance.forward(random.randrange(1, 5))
     if lance_position >= 150:
-        print("Lance Wins!")
+        display_winner("Lance", lance.xcor(), lance.ycor())
         break
 
 

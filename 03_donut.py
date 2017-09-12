@@ -53,5 +53,6 @@ def main():
 
     print("Thank you for snacking! Loop back around here soon!")
 
+
 if __name__ == "__main__":
     main()

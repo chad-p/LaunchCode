@@ -21,11 +21,9 @@ def main():
     for num in num_list:
         print(num)
 
-    print("\n")
-
     for num in num_list:
         square = num ** 2
-        print("The square of {}".format(num) + " is " + "{}".format(square))
+        print("The square of {} is {}".format(num, square))
 
 
 if __name__ == "__main__":
