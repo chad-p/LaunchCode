@@ -6,3 +6,4 @@
 .idea/misc.xml
 __pycache__/my_classes.cpython-36.pyc
 __pycache__/turtle.cpython-36.pyc
+*.pyc

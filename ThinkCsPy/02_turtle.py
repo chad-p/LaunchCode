@@ -28,7 +28,7 @@ finish_line.goto(150, 40)
 finish_line.down()
 finish_line.goto(150, -40)
 
-random_click = random.randrange(1, 5)
+#random_click = random.randrange(1, 5)
 
 
 def display_winner(racer, xcor, ycor):
