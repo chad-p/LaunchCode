@@ -1,5 +1,5 @@
 def is_leap(year):
-    if year % 100 == 0:
+    if year % 100 == 0:  # Check if a century
         if (year / 100) % 4 == 0:
             return True
         else:
