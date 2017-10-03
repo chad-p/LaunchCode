@@ -9,28 +9,20 @@ def alphabet_position(char):
     return ord(char.lower()) - 97
 
 
-def rotate_character(string, rot):
-    value = ()
+def rotate_character(char, rot):
 
-    for char in string:
+    is_upper = char.isupper()
+    rot_num = alphabet_position(char) + rot
 
-        if not char.isalpha():
-            value = value + (char,)
-        else:
-            is_upper = char.isupper()
-            rot_num = alphabet_position(char) + rot
+    while rot_num > 25:
+        rot_num -= 26
 
-            while rot_num > 25:
-                rot_num -= 26
+    c = chr(rot_num + 97)
 
-            c = chr(rot_num + 97)
+    if is_upper:
+        c = c.upper()
 
-            if is_upper:
-                c = c.upper()
-
-            value = value + (c,)
-
-    return value
+    return c
 
 
 if __name__ == "__main__":
