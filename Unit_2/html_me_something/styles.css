@@ -1,0 +1,44 @@
+h1 {
+  padding-top: 25px;
+  font-size: 250%;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+h6 {
+  margin-top: 0px;
+}
+
+header, footer {
+  text-align: center;
+}
+
+main {
+  width: 800px;
+  border: 5px solid black;
+  padding: 25px;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.codeblock {
+  display: block;
+  white-space: pre-wrap;
+}
+
+.increase_margin {
+  margin-bottom: 50px;
+}
+
+.offset {
+  padding-left: 75px;
+}

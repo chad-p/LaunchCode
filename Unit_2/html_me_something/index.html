@@ -1,7 +1,58 @@
 <DOCTYPE html>
 <html>
-<head>
-    <p>Chad Perkins<p>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Fish Shell for Unix</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>Review of Fish Unix Shell</h1>
+        <hr>
+        <h5>By Chad Perkins</h5>
+        <h6>11.6.17</h6>
+      </header>
+
+      <main>
+        <div class="increase_margin">
+          <p class="bold"># The Install</p>
+          <p>This install was done with a bash on windows enviornment running Ubuntu.</p>
+          <div class="offset">
+            <code class="codeblock">sudo apt-add-repository ppa:fish-shell/release-2
+sudo apt-get update
+sudo apt-get install fish</code>
+            <p>
+            <img src="includes/load_fish.gif"/>
+          </div>
+        </div>
+
+        <div class="increase_margin">
+          <p class="bold"># Running A Command</p>
+          <p>Fish uses auto suggestion based off of previously run commands.</p>
+          <div class="offset">
+            <img src="includes/grep_autocomplete.gif"/>
+          </div>
+        </div>
+
+        <div class="increase_margin">
+          <p class="bold"># Man Page Completions</p>
+          <p>Fish gives you suggestions based off comand man pages.  Cool!</p>
+          <div class="offset">
+            <img src="includes/man_suggest.gif"/>
+          </div>
+        </div>
+
+        <div class="center">
+          <br>Fish is fun to use and can be very helpful.
+          <br>To learn more visit their website at <a href="https://fishshell.com">fishshell.com</a>
+          <br>To contribute checkout their github at <a href="https://github.com/fish-shell/fish-shell">github.com/fish-shell/fish-shell</a>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; - Ha ha, not really.</p>
+      </footer>
+    </article>
+  </body>
+</html>
