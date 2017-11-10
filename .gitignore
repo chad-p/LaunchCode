@@ -1,6 +1,7 @@
-
 .idea/
 _pycache_/
+.gitignore
+*.pyc
 
 # Web-Caesar
 Unit_2/web-caesar/.idea/
@@ -8,7 +9,5 @@ Unit_2/web-caesar/virtenv/
 
 
 # Studio - Flicklist
-Unit_2/.git/
-Unit_2/.idea/
-Unit_2/.gitignore
-*.pyc
+Unit_2/studio/flicklist-flask/.git/
+Unit_2/studio/flicklist-flask/.idea/
