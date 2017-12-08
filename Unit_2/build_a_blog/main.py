@@ -36,22 +36,26 @@ def blog():
         new_blog = Blog(blog_title, blog_entry)
         db.session.add(new_blog)
         db.session.commit()
-        return render_template('blog.html', title=new_blog.id)
+        return redirect(url_for('blog', id=new_blog.id))
 
+    #print(request.args)
+    if request.args:
+        db_id = request.args['id']
+        post = Blog.query.filter_by(id=db_id).first()
+        title = post.title
+        entry = post.entry
+        return render_template('blog.html', title=title, entry=entry)
 
+    else:
+        title = "Build-A-Blog!"
+        posts = Blog.query.order_by(Blog.pub_date.desc()).all()
 
-    return render_template('blog.html', title="Build-A-Blog!")
+    return render_template('blog.html', title=title, posts=posts)
+
 
 
 @app.route('/newpost', methods=['GET', 'POST'])
 def newpost():
-
-    if request.method == 'POST':
-        blog_id = int(request.form['task-id'])
-        task = Task.query.get(task_id)
-        task.completed = True
-        db.session.add(task)
-        db.session.commit()
 
     return render_template('newpost.html', title="Add a Blog Entry")
 

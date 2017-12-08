@@ -1,5 +1,17 @@
 {% include "header.html" %}
 
 <div>
-
+  {{ entry }}
 </div>
+
+{% if posts %}
+<div>
+  {% for post in posts %}
+  <div>
+    <h2><a href=blog?id={{ post.id }}>{{ post.title }}</a></h2>
+    <p>{{ post.entry }}
+    <hr>
+  </div>
+  {% endfor %}
+</di>
+{% endif %}

@@ -5,8 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route('/index')
-
-
 def index():
     """ Redirect to signup route """
     return redirect(url_for('signup'))
