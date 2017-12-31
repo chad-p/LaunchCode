@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}
+  {{ entry }}
+{% endblock %}
+
+{% block content %}
+{% if posts %}
+<div>
+  {% for post in posts %}
+  <div>
+    <h2><a href=blog?id={{ post.id }}>{{ post.title }}</a></h2>
+    <p>{{ post.entry }}
+    <p class="post-author">written by <a href=blog?user={{ post.username }}>{{ post.username }}</a>
+  </div>
+  {% endfor %}
+</di>
+{% endif %}
+
+{% if post %}
+  <div>
+    <h2 class="post-title">{{ post.title }}</h2>
+    <p class="post-body">{{ post.entry }}
+    <p class="post-author">written by <a href=blog?user={{ username }}>{{ username }}</a>
+  </div>
+{% endif %}
+
+{% endblock %}
