@@ -116,8 +116,18 @@ def newpost():
 def login():
     if request.method == 'POST':
         session['username'] = request.form['username']
+        password = request.form['password']
+
+        user = User.query.filter_by(username=session['username']).first()
+        user_password = user.password
+
+        if user_password != password:
+            wrong_pwd = "Incorrect password entered."
+            return render_template('login.html', wrong_pwd=wrong_pwd)
+
         print("[login] logged in as " + session['username'])
         return redirect(url_for('newpost'))
+
     return render_template('login.html')
 
 
