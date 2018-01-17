@@ -1,0 +1,11 @@
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\bin\Debug\netcoreapp2.0\Area.deps.json
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\bin\Debug\netcoreapp2.0\Area.runtimeconfig.json
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\bin\Debug\netcoreapp2.0\Area.runtimeconfig.dev.json
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\bin\Debug\netcoreapp2.0\Area.dll
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\bin\Debug\netcoreapp2.0\Area.pdb
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\obj\Debug\netcoreapp2.0\Area.csprojResolveAssemblyReference.cache
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\obj\Debug\netcoreapp2.0\Area.csproj.CoreCompileInputs.cache
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\obj\Debug\netcoreapp2.0\Area.AssemblyInfoInputs.cache
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\obj\Debug\netcoreapp2.0\Area.AssemblyInfo.cs
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\obj\Debug\netcoreapp2.0\Area.dll
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\csharp-exercises\Area\Area\obj\Debug\netcoreapp2.0\Area.pdb
