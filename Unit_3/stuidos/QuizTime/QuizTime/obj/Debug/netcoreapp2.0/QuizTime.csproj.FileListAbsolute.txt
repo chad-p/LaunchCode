@@ -1,0 +1,11 @@
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\bin\Debug\netcoreapp2.0\QuizTime.deps.json
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\bin\Debug\netcoreapp2.0\QuizTime.runtimeconfig.json
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\bin\Debug\netcoreapp2.0\QuizTime.runtimeconfig.dev.json
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\bin\Debug\netcoreapp2.0\QuizTime.dll
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\bin\Debug\netcoreapp2.0\QuizTime.pdb
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\obj\Debug\netcoreapp2.0\QuizTime.csprojResolveAssemblyReference.cache
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\obj\Debug\netcoreapp2.0\QuizTime.csproj.CoreCompileInputs.cache
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\obj\Debug\netcoreapp2.0\QuizTime.AssemblyInfoInputs.cache
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\obj\Debug\netcoreapp2.0\QuizTime.AssemblyInfo.cs
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\obj\Debug\netcoreapp2.0\QuizTime.dll
+C:\Users\cp042354\Dropbox\Scripts\Classwork\LaunchCode\Unit_3\stuidos\QuizTime\QuizTime\obj\Debug\netcoreapp2.0\QuizTime.pdb
